@@ -12,7 +12,7 @@ payload = {
 }
 
 header = {
-    'authorization': 'Nzc5MDA5NTU5MjUwODYyMDky.X7aTSw.V_jPSo2XALS5ENTGm_s5uFrH1Ys'
+    'authorization': ''
 }
 
 #  https://discord.com/api/v8/channels/825683473922261005/messages

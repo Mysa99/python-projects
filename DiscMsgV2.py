@@ -8,14 +8,14 @@ time.sleep(4)
 print("Your Message Got Succfully send.")
 
 payload = {
-    'content': "fjajifhajifjajifjIJfjakjfa @everyone @everyone HAHAH U CAN'T BAN ME LMAOOOOO!"
+    'content': "fjajifhajifjajifjIJfjakjfa @everyone @everyone HAHAH U CAN'T BAN ME LMAOOOOO! (the message u wanna send)"
 }
 
 header = {
-    'authorization': ''
+    'authorization': 'YOUR TOKEN HERE!'
 }
 
 #  https://discord.com/api/v8/channels/825683473922261005/messages
-r = requests.post("https://discord.com/api/v8/channels/825683473922261005/messages",
+r = requests.post("YOUR DISCORD API LINK!",
 data=payload, headers=header )
 time.sleep(4)

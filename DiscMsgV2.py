@@ -15,7 +15,7 @@ header = {
     'authorization': 'YOUR TOKEN HERE!'
 }
 
-#  https://discord.com/api/v8/channels/825683473922261005/messages
+#  Save ur link here if u forget it
 r = requests.post("YOUR DISCORD API LINK!",
 data=payload, headers=header )
 time.sleep(4)
